@@ -1,0 +1,20 @@
+.footer {
+  background-color: $neutral-dgrey-color;
+}
+
+.footer-wrapper {
+  color: #ffffff;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper .logo {
+  color: #ffffff;
+}
+
+.footer-wrapper p {
+  margin-top: 5px;
+}

@@ -299,6 +299,27 @@ h4 {
   color: red;
 }
 
+.footer {
+  background-color: #4d4d4d;
+}
+
+.footer-wrapper {
+  color: #ffffff;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper .logo {
+  color: #ffffff;
+}
+
+.footer-wrapper p {
+  margin-top: 5px;
+}
+
 /* COMPONENTS */
 * {
   margin: 0;
