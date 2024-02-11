@@ -1,3 +1,5 @@
+// Modal Window
+
 function initializeModal() {
   const modal = document.querySelector(".modal");
   const openModalBtn = document.querySelector(".login");

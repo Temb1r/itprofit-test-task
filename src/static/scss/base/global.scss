@@ -1,16 +1,17 @@
 @import "../abstract/typography";
 @import "../abstract/variables";
 @import "../header";
+@import "../head-section";
 
 /* COMPONENTS */
 
 * {
+  margin: 0;
   font-family: "Inter";
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   padding: 0;
 }
 
@@ -33,4 +34,12 @@ p {
   max-width: 1110px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
 }
