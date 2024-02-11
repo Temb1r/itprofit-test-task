@@ -1,6 +1,6 @@
 import { submitForm } from "./ajaxFormSubmit";
 
-document.addEventListener("DOMContentLoaded", function () {
+export function validateForm() {
   const form = document.querySelector(".contact-form");
   const phoneInput = form.querySelector(".phone");
 
@@ -78,4 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
   }
-});
+}
+
+document.addEventListener("DOMContentLoaded", validateForm);
