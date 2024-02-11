@@ -1,0 +1,35 @@
+@import "../abstract/typography";
+@import "../abstract/variables";
+
+/* COMPONENTS */
+
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+.content {
+  max-width: 1110px;
+  margin: 0 auto;
+  overflow: hidden;
+}
